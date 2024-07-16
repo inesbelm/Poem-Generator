@@ -1,42 +1,42 @@
-# Générateur de Poèmes
+# Poem Generator
 
-Ce projet, issu de ma passion personnelle pour la poésie, est un générateur de poèmes automatisé. Il utilise des techniques avancées de traitement du langage naturel pour créer des poèmes, en s'inspirant de divers styles et thèmes.
+This project, born from my personal passion for poetry, is an automated poem generator. It uses advanced natural language processing techniques to create poems, drawing inspiration from various styles and themes.
 
 ## Installation
 
-Assurez-vous d'avoir Python 3 installé sur votre système pour exécuter ce projet.
+Ensure that Python 3 is installed on your system to run this project.
 
-### Dépendances
+### Dependencies
 
-Pour installer les bibliothèques nécessaires, exécutez le code suivant :
+To install the necessary libraries, run the following code:
 pip install -q kaggle
 pip install --upgrade --force-reinstall --no-deps kaggle
 
 
 ### Configuration
 
-1. **Clé API Kaggle** : Avant de télécharger les données nécessaires, configurez votre clé API Kaggle. Téléchargez votre `kaggle.json` depuis votre compte Kaggle et chargez-le dans l'environnement d'exécution avec ce code :
+1. **Kaggle API Key**: Before downloading the necessary data, configure your Kaggle API key. Download your `kaggle.json` from your Kaggle account and load it into the execution environment with this code:
 
 from google.colab import files
 files.upload()
 
 
-2. **Téléchargement des données** : Utilisez les commandes intégrées au notebook pour télécharger le dataset des poèmes depuis Kaggle.
+2. **Data Download**: Use the built-in notebook commands to download the poem dataset from Kaggle.
 
-## Utilisation
+## Usage
 
-Lancez le notebook pour générer un poème. Le système vous proposera de choisir un style ou un thème pour personnaliser le poème généré.
+Launch the notebook to generate a poem. The system will offer you to choose a style or theme to customize the generated poem.
 
 ## Technologies
 
 - Python 3
-- API Kaggle
-- Traitement du langage naturel
+- Kaggle API
+- Natural Language Processing
 
 ## Contribution
 
-Les suggestions et contributions pour améliorer ce projet sont toujours bienvenues. N'hésitez pas à soumettre vos idées ou modifications via une pull request.
+Suggestions and contributions to improve this project are always welcome. Feel free to submit your ideas or modifications via a pull request.
 
-## Licence
+## License
 
-Distribué sous la licence MIT, ce projet est libre d'utilisation pour tous. Consultez le fichier `LICENSE` pour plus de détails.
+Distributed under the MIT License, this project is free for everyone to use. See the `LICENSE` file for more details.
